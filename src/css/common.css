@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* Common / base styles and variables */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #000000;
+  --accent: #ff6600;
+  --accent-hover: #ff4d00;
+  --text-light: #ffffff;
+  --text-muted: #bdbdbd;
+  --bg-dark: #000000;
+  --bg-section: #0a0a0a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  overflow-x: hidden;
+}
+
+/* Animations used across sections */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive helpers - smaller viewports */
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 20px;
+  }
+  section {
+    scroll-margin-top: 60px;
+  }
+}

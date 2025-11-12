@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Estética V8</title>
+    <link rel="stylesheet" href="src/css/whatssap.css">
+    <link rel="stylesheet" href="src/css/common.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/hero.css">
+    <link rel="stylesheet" href="src/css/featured.css">
+    <link rel="stylesheet" href="src/css/collections.css">
+    <link rel="stylesheet" href="src/css/gallery.css">
+    <link rel="stylesheet" href="src/css/faq.css">
+    <link rel="stylesheet" href="src/css/contact.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <span class="logo-text">Estética V8</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#featured" class="nav-link">Serviços</a></li>
+                <li><a href="#gallery" class="nav-link">Galeria</a></li>
+                <li><a href="#faq" class="nav-link">Faq</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+                <li><a href="#contact" class="nav-cta">Entre Em Contato</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#featured">Serviços</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#faq">Faq</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=5579981614853&text=Olá%2C%20gostaria%20de%20mais%20informações." 
+    id="whatsapp-link" 
+    class="whatsapp-float" 
+    target="_blank" 
+    rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span class="number-text">(79) 8161-4853</span>
+    </a>
+
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1 class="hero-title">
+                    <span class="line"><span>Seu Carro</span></span></span>
+                    <span class="line"><span><span>Merece</span> O</span></span>
+                    <span class="line"><span><span class="highlight">Melhor Cuidado</span></span>
+                </h1>
+                <p class="hero-description">
+                    Especialistas em cuidados automotivos com as melhores técnicas e produtos do mercado.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">1+</span>
+                        <span class="stat-label">Clientes</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">48H</span>
+                        <span class="stat-label">Fast Delivery</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Sustainable</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-image-wrapper">
+                    <div class="hero-carousel">
+                        <div class="carousel-slide active">
+                            <img src="images/noir-fashion-hero-01.avif" alt="Fashion Model 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/noir-fashion-hero-02.avif" alt="Fashion Model 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/noir-fashion-hero-03.avif" alt="Fashion Model 3">
+                        </div>
+                        <div class="carousel-indicators">
+                            <span class="indicator active" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <section class="featured" id="featured">
+        <div class="featured-container">
+                <div class="featured-content">
+                    <h2>Nossos Serviços</h2>
+                    <p>Conheça nossa gama completa de serviços especializados em estética automotiva</p>
+                    
+                        <div class="feature-highlights">
+                            <div class="highlight-item">
+                                <div class="highlight-icon"><i class="ph ph-sparkle"></i></div>
+                                <div class="highlight-title">Polimento Técnico</div>
+                                <div class="highlight-desc">Remoção de riscos, manchas e oxidações da pintura, devolvendo o brilho original do seu veículo com técnicas profissionais.</div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="highlight-icon"><i class="ph ph-drop"></i></div>
+                                <div class="highlight-title">Lavagem Detalhada</div>
+                                <div class="highlight-desc">Limpeza completa interna e externa com produtos especializados, atingindo cada detalhe do seu automóvel.</div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="highlight-icon"><i class="ph ph-shield-check"></i></div>
+                                <div class="highlight-title">Higienização Interna</div>
+                                <div class="highlight-desc">Limpeza profunda de bancos, carpetes, teto e ar-condicionado, eliminando odores e bactérias do interior do veículo.</div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="highlight-icon"><i class="ph ph-wind"></i></div>
+                                <div class="highlight-title">Cristalização de Pintura</div>
+                                <div class="highlight-desc">Proteção avançada que forma uma camada cristalina sobre a pintura, garantindo brilho intenso e proteção duradoura.</div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="highlight-icon"><i class="ph ph-sketch-logo"></i></div>
+                                <div class="highlight-title">Vitrificação</div>
+                                <div class="highlight-desc">Tratamento de alta durabilidade que cria uma camada de proteção vítrea, mantendo o carro sempre brilhante.</div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="highlight-icon"><i class="ph ph-lightbulb"></i></div>
+                                <div class="highlight-title">Revitalização de Faróis</div>
+                                <div class="highlight-desc">Recuperação de faróis opacos e amarelados, melhorando a estética e segurança do seu veículo.</div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="highlight-icon"><i class="ph ph-shield"></i></div>
+                                <div class="highlight-title">Proteção de Pintura</div>
+                                <div class="highlight-desc">Aplicação de películas e revestimentos protetores que preservam a pintura original contra danos externos.</div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="highlight-icon"><i class="ph ph-star"></i></div>
+                                <div class="highlight-title">Enceramento Premium</div>
+                                <div class="highlight-desc">Aplicação de ceras especiais que proporcionam brilho profundo e proteção contra intempéries.</div>
+                            </div>
+                        </div>
+                        <div style="height: 200px;"></div>
+                        <div class="featured-content">
+                        <h2>Por Que Escolher a V8?</h2>
+                        <p>Diferenciais que fazem toda a diferença no resultado final</p>
+
+                <section class="diferenciais">
+                    <div class="diferenciais-grid">
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="ph ph-medal"></i></div>
+                            <div class="highlight-title">Produtos Premium</div>
+                            <div class="highlight-desc">
+                                Utilizamos apenas produtos de alta qualidade, garantindo os melhores resultados para seu veículo.
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="ph ph-users-three"></i></div>
+                            <div class="highlight-title">Equipe Especializada</div>
+                            <div class="highlight-desc">
+                                Profissionais treinados e certificados em técnicas avançadas de estética automotiva.
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="ph ph-heart"></i></div>
+                            <div class="highlight-title">Atendimento Personalizado</div>
+                            <div class="highlight-desc">
+                                Cada veículo recebe atenção individual, com serviços adaptados às suas necessidades específicas.
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="ph ph-check-circle"></i></div>
+                            <div class="highlight-title">Resultados Garantidos</div>
+                            <div class="highlight-desc">
+                                Satisfação garantida ou refazemos o serviço. Sua confiança é nossa prioridade.
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="ph ph-cpu"></i></div>
+                            <div class="highlight-title">Tecnologia Avançada</div>
+                            <div class="highlight-desc">
+                                Equipamentos de última geração para entregar acabamento impecável em todos os serviços.
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="ph ph-clock"></i></div>
+                            <div class="highlight-title">Agendamento Flexível</div>
+                            <div class="highlight-desc">
+                                Horários flexíveis e atendimento via WhatsApp para sua comodidade.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>     
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="gallery-container">
+            <h2>Galeria de Trabalhos</h2>
+            <p>Veja alguns dos nossos projetos e transformações</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/mountain-landscape.jpg" alt="Mountain Landscape">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/forest-path.jpg" alt="Forest Path">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/serene-water-mirroring.jpg" alt="Lake Reflection">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/ocean-sunset-golden-hour.jpg" alt="Ocean Sunset">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/rolling-sand-dunes.jpg" alt="Desert Dunes">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/starry-night.jpg" alt="Starry Night">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/cascading-waterfall.jpg" alt="Waterfall">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/noir-fashion-hero-01.avif" alt="Fashion Hero 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/noir-fashion-hero-02.avif" alt="Fashion Hero 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/noir-fashion-hero-03.avif" alt="Fashion Hero 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+            <div class="faq-container">
+                <h2>Perguntas Frequentes</h2>
+                <p>Tire suas dúvidas sobre nossos serviços</p>
+
+                <div class="faq-item">
+                <button class="faq-question">Quanto tempo dura cada serviço?</button>
+                <div class="faq-answer">
+                    <p>O tempo varia de acordo com o serviço escolhido. Uma lavagem detalhada leva em média 2-3 horas, enquanto polimento e cristalização podem levar de 4 a 8 horas. Informamos o prazo exato no agendamento.</p>
+                </div>
+                </div>
+
+                <div class="faq-item">
+                <button class="faq-question">Com que frequência devo fazer estética no meu carro?</button>
+                <div class="faq-answer">
+                    <p>Recomendamos lavagem detalhada a cada 15-30 dias, polimento técnico a cada 6 meses, e cristalização ou vitrificação anualmente para manter seu veículo sempre protegido e com aparência impecável.</p>
+                </div>
+                </div>
+
+                <div class="faq-item">
+                <button class="faq-question">Os produtos utilizados são seguros para a pintura?</button>
+                <div class="faq-answer">
+                    <p>Sim! Utilizamos apenas produtos profissionais de marcas reconhecidas no mercado, específicos para estética automotiva, que não danificam a pintura ou componentes do veículo.</p>
+                </div>
+                </div>
+
+                <div class="faq-item">
+                <button class="faq-question">Qual a diferença entre cristalização e vitrificação?</button>
+                <div class="faq-answer">
+                    <p>A cristalização oferece proteção por 3-6 meses com excelente brilho, enquanto a vitrificação é mais duradoura (1-2 anos) e cria uma camada mais resistente. Ambas protegem contra raios UV, chuva ácida e poluição.</p>
+                </div>
+                </div>
+
+                <div class="faq-item">
+                <button class="faq-question">Como faço para agendar um serviço?</button>
+                <div class="faq-answer">
+                    <p>É muito simples! Entre em contato conosco pelo WhatsApp clicando no botão na página. Responderemos rapidamente para agendar o melhor horário para você.</p>
+                </div>
+                </div>
+
+                <div class="faq-item">
+                <button class="faq-question">Vocês atendem em domicílio?</button>
+                <div class="faq-answer">
+                    <p>Para alguns serviços sim! Entre em contato pelo WhatsApp para verificar disponibilidade e valores para atendimento no local de sua preferência em Aracaju.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2 class="section-title">Entre Em Contato</h2>
+                <p class="section-subtitle">Adoraríamos ouvir você</p>
+            </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="ph ph-map-pin"></i></div>
+                        <div class="info-content">
+                            <h3>Visite Nosso Local</h3>
+                            <p>Endereço: R. 29, 99 - Fernando Collor, Nossa Senhora do Socorro - SE</p>
+                            <p>CEP: 49155182</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i class="ph ph-phone"></i></div>
+                        <div class="info-content">
+                            <h3>Nós Ligue</h3>
+                            <p>Número: <a href="tel:+557981614853">+55 79 8161-4853</a><br>
+                                <p>Whatssap: <a href="tel:+557981614853">+55 79 8161-4853</a><br>
+                            Seg-Sex, 9AM-6PM UCT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <div class="map-section">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.135558500858!2d-37.096984961252595!3d-10.866971863209505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7054d307755f5a1%3A0x71331ab3da985683!2sR.%2029%2C%2099%20-%20Fernando%20Collor%2C%20Nossa%20Sra.%20do%20Socorro%20-%20SE%2C%2049160-000%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1762984994486!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Estética V8</h3>
+                <p>Transformando veículos com brilho, proteção e alto desempenho. Experimente o cuidado que eleva o visual e o valor do seu carro.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">E</a>
+                    <a href="#" class="social-link">S</a>
+                    <a href="#" class="social-link">T</a>
+                    <a href="#" class="social-link">É</a>
+                    <a href="#" class="social-link">T</a>
+                    <a href="#" class="social-link">I</a>
+                    <a href="#" class="social-link">C</a>
+                    <a href="#" class="social-link">A</a>
+                    <a href="#" class="social-link">V</a>
+                    <a href="#" class="social-link">8</a>
+
+                </div>
+            </div>
+                <div class="footer-column">
+                <h4>Serviços</h4>
+                <ul>
+                    <li><a>Polimento e Enceramento</a></li>
+                    <li><a>Higienização Interna</a></li>
+                    <li><a>Vitrificação de Pintura</a></li>
+                    <li><a>Revitalização de Faróis</a></li>
+                    <li><a>Lavagem Técnica</a></li>
+                </ul>
+                </div>
+                    <div class="footer-column">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a>📞 (79) 8161-4853</a></li>
+                        <li><a>📍 R. 29, 99 - Fernando Collor<br> Nossa Senhora do Socorro - SE</a></li>
+                    </ul>
+                    </div>
+                <div class="footer-column">
+                    <h4>Horário de Atendimento</h4>
+                        <ul>
+                            <li><a>Segunda a Sexta: 08h às 18h</a></li>
+                            <li><a>Sábado: 08h às 13h</a></li>
+                            <li><a>Domingo: Fechado</a></li>
+                        </ul>
+                </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Estética V8. Todos os direitos reservados. | Design por Laudiclayton Vital Da Silva</p>
+            <div class="payment-methods">
+                <div class="payment-icon">VISA</div>
+                <div class="payment-icon">MC</div>
+                <div class="payment-icon">AMEX</div>
+                <div class="payment-icon">PAY</div>
+                <div class="payment-icon">PIX</div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>

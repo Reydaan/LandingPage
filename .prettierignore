@@ -1,0 +1,10 @@
+# Ignore dependencies and build outputs
+node_modules/
+dist/
+build/
+*.min.css
+*.min.js
+.vscode/
+
+# Images and other assets
+images/
