@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Estética V8</title>
     <link rel="stylesheet" href="src/css/whatssap.css">
@@ -409,6 +410,16 @@
         </div>
     </footer>
 
-    <script type="module" src="src/main.js"></script>
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <button class="lightbox-prev">&#10094;</button>
+            <img id="lightbox-image" src="" alt="">
+            <button class="lightbox-next">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="src/script.js"></script>
 </body>
 </html>
