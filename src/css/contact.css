@@ -125,6 +125,11 @@
   background: linear-gradient(135deg, rgba(255, 102, 0, 0.08), rgba(255, 102, 0, 0.02));
   border-radius: 10px;
   border: 1px solid rgba(255, 102, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .info-item {
   margin-bottom: 50px;
@@ -132,6 +137,8 @@
   align-items: start;
   gap: 20px;
   transition: all 0.3s ease;
+  width: 100%;
+  max-width: 600px;
 }
 .info-item:hover {
   transform: translateX(5px);
